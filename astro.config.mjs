@@ -20,4 +20,5 @@ export default defineConfig({
       theme: "one-dark-pro",
     },
   },
+  adapter: vercel()
 });
