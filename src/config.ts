@@ -1,6 +1,6 @@
 import type { Socials } from "./types";
 
-export const SITE_URL = "https://flutermania-dev.vercel.app/";
+export const SITE_URL = "https://flutermania-dev.vercel.app";
 export const TITLE = "Fluttermania";
 export const SITE_TITLE = "Fluttermania — A blog by Lucas Casco";
 export const SOCIAL_NAME = "Lucas Casco";
