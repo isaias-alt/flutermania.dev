@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: "Poppins";
+  overflow-y: scroll;
+}
+
+/* Custom scrollbar for webkit browsers */
+/* Vertical scrollbar */
+::-webkit-scrollbar {
+  width: 5px; /* Width of the scrollbar for vertical scrolling */
+  height: 5px; /* Height of the scrollbar for horizontal scrolling */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Thumb color */
+  border-radius: 5px; /* Round corners for the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Thumb color on hover */
+}
+
+/* Horizontal scrollbar */
+::-webkit-scrollbar-thumb:horizontal {
+  background: #888; /* Thumb color for horizontal scrolling */
+}
+
+::-webkit-scrollbar-thumb:horizontal:hover {
+  background: #555; /* Thumb color on hover for horizontal scrolling */
+}

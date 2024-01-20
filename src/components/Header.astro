@@ -1,11 +1,23 @@
-<header class="flex justify-between items-center py-12 w-[620px]">
+---
+import { SITE_TITLE, SITE_LOGO, TITLE } from "../config";
+---
+
+<header class="flex items-center justify-between py-6 max-w-5xl px-3 md:px-6 mx-auto">
+
+  <a href="/">
+    <h1 class="bg-gradient-to-r from-cyan-400 via-sky-300 to-sky-600 inline-block text-transparent bg-clip-text text-3xl font-black">
+      {TITLE}
+    </h1>
+  </a>
+    
   <nav>
-    <a class="text-2xl scale-100 font-black" href="/">Fluttermania</a>
+    <ul class="flex items-center justify-center space-x-4">
+      <li>
+        <a href="/">Home</a>
+      </li>
+      <li>
+        <a href="/blog">Posts</a>
+      </li>
+    </ul>
   </nav>
-  <div class="flex items-center">
-    <span class="font-thin italic font-serif px-3">by</span>
-    <a href="https://www.linkedin.com/in/lucascodev/" target="_blank">
-      <img class="rounded-full  w-8 h-8" src="../../public/foto.jpeg" alt="photo">
-    </a>
-  </div>
 </header>
