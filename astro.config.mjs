@@ -2,6 +2,7 @@ import { defineConfig } from "astro/config";
 import { SITE_URL } from "./src/config";
 import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
+import vercelStatic from "@astrojs/vercel/static";
 
 import mdx from "@astrojs/mdx";
 
@@ -20,4 +21,6 @@ export default defineConfig({
       theme: "one-dark-pro",
     },
   },
+  output: "static",
+  adapter: vercelStatic(),
 });
