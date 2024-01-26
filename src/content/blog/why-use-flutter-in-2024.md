@@ -4,7 +4,7 @@ description: "Flutter, the ideal choice?"
 pubDate: "January 25 2024"
 ---
 
-![dash](./dash_2024.webp)
+![dash-2024](../../../public/images/dash2024.webp)
 
 In the fast-paced world of app development, choosing the right technology is more crucial than ever. Flutter, with its ability to deliver efficient, visually appealing, and rapidly developed applications, stands out as a cutting-edge choice. In this post, we'll explore why Flutter not only meets the demands of today's technological era, but could be the smarter choice over native development and other cross-development frameworks.
 
@@ -22,7 +22,7 @@ Additionally, Flutter prides itself on being an open source framework, with its 
 
 Speaking of community engagement, Flutter's thriving community, with over 2 million developers, offers countless resources to help realize the full potential of Flutter. This growth is reflected in both the number of stars Flutter has earned on GitHub and its popularity in Google search trends.
 
-![dash](./dash.webp)
+![dash-2024](../../../public/images/dash.webp)
 
 ## When to use Flutter
 
@@ -37,6 +37,7 @@ Choosing between Flutter and native development is a crucial decision that will 
 If your main goal is to speed up development and reduce workload, Flutter stands out as an exceptional option. For both large and smaller teams, as I said earlier Flutter offers a single code base, this not only speeds up development but also makes it easier to manage and update the application.
 
 If the priority is fine-tuning and making the most of platform-specific tools and features, native development is the way. Native development is especially beneficial for apps that rely heavily on specific iOS or Android features.
+
 
 ## Deciding between Flutter and React Native
 
