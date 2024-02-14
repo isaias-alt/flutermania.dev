@@ -1,1 +1,1 @@
-# Fluttermania — A blog by Lucas Casco
+# Fluttermania
