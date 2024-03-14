@@ -37,3 +37,7 @@ print(myName);
 ```
 
 I would use the print function and inside the parentheses i would tell it what i want to print and in this case it is actually not the words myName that will print, it is the value of that variable that will print, so when you run this line of code, the computer will take the box labeled myName from the shelf, open it, see what's inside, and place it on the console. What you will actually see is the Flutter output that says the word 'Lucas'.
+
+## For better understanding...
+
+Now for practice this, please go to <a href="https://dartpad.dev/" target="_blank"> DartPad </a>
